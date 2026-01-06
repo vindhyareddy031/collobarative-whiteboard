@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CanvasSync - Real-time Whiteboard</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { background: #fff; display: block; }
+        #toolbar {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="toolbar">
+    <input type="color" id="color" value="#000000">
+    <button onclick="clearCanvas()">Clear</button>
+</div>
+
+<canvas id="canvas"></canvas>
+
+<script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
