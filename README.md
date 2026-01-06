@@ -1,0 +1,1 @@
+A real-time collaborative whiteboard is a digital platform that enables multiple users to collaborate and share ideas in real-time. It's a virtual space where users can draw, write, and share content simultaneously, making it ideal for brainstorming, teaching, and remote teamwork.
